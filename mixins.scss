@@ -1,0 +1,11 @@
+@mixin fonts($fontSize) {
+    font-size: $fontSize;
+}
+
+@mixin backColor($color) {
+    background-color: $color;
+};
+
+@mixin margin($margin...) {
+    margin: $margin;
+};
